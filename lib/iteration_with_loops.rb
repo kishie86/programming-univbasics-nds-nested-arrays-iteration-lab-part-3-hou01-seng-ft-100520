@@ -8,7 +8,7 @@ while row_index < src.count do
   pull_strings_only = ""
   
   while element_index < src[row_index].count do
-    if src[row_index][element_index].length > pull_strings_only.length
+    if src[row_index][element_index].class > pull_strings_only.class
     pull_strings_only = src[row_index][element_index]
     element_index += 1
   end
