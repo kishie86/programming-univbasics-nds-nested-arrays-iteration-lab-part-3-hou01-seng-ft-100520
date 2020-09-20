@@ -11,7 +11,7 @@ while row_index < src.count do
     pull_strings_only += src[row_index][element_index] + ' '
   
   end
-  
+  element_index += 1
 
 end
 row_index += 1
@@ -21,6 +21,6 @@ end
 
 
 
-element_index += 1
+
 
  
