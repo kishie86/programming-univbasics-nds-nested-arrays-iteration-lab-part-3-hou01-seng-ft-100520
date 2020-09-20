@@ -7,7 +7,7 @@ while row_index < src.count do
   element_index = 0
   pull_strings_only = ""
   
-  while element_index < join_nested_strings(src)[row_index].count do
+  while element_index < src[row_index].count do
     if src[row_index][element_index].length > pull_strings_only.length
     pull_strings_only = src[row_index][element_index]
     element_index += 1
