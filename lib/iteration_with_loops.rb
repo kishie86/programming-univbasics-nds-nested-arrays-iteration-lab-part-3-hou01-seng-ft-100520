@@ -1,7 +1,7 @@
 
 def join_nested_strings(src)
 
-total = 0
+results 
 row_index = 0
 while row_index < join_nested_strings(src).count do
   element_index = 0
