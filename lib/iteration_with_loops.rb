@@ -14,13 +14,13 @@ while row_index < src.count do
   row_index += 1
 
 end
-element_index += 1
+
 end
 pull_strings_only
 end
 
 
 
-
+element_index += 1
 
  
