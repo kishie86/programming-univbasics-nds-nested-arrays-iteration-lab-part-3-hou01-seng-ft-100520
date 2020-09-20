@@ -2,7 +2,7 @@
 def join_nested_strings(src)
 
 row_index = 0
-  pull_strings_only = ""
+pull_strings_only = ""
 while row_index < src.count do
   element_index = 0
 
