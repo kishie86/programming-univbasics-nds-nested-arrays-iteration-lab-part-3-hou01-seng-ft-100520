@@ -3,9 +3,9 @@ def join_nested_strings(src)
 
 total = 0
 row_index = 0
-while row_index < join_nested_strings(src).class do
+while row_index < join_nested_strings(src).count do
   element_index = 0
-  while element_index < join_nested_strings(src)[row_index].class do
+  while element_index < join_nested_strings(src)[row_index].count do
     total += join_nested_strings(src)[row_index][element_index]
     element_index += 1
   end
