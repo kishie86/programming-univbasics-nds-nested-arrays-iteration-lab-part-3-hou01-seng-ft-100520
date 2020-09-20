@@ -1,7 +1,6 @@
 
 def join_nested_strings(src)
 
-results = []
 row_index = 0
   pull_strings_only = ""
 while row_index < src.count do
