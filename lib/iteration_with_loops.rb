@@ -8,7 +8,7 @@ while row_index < join_nested_strings(src).count do
   pull_strings_only = ""
   
   while element_index < join_nested_strings(src)[row_index].count do
-    if join_nested_strings(src)[row_index][element_index].class >  pull_strings_only.length
+    if join_nested_strings(src)[row_index][element_index].class >  pull_strings_only.class
     pull_strings_only = join_nested_strings(src)[row_index][element_index]
     element_index += 1
   end
